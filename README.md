@@ -21,12 +21,12 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 
 ## EndPoints
 ### Autenticação :
-`http://localhost:8080/OurAnimeList/user`
+`https://ouranimelist.herokuapp.com/OurAnimeList/user`
 - `/signup`     - Criar conta
 - `/login`      - Logar em uma conta existente
 
 ### Anime :
-`http://localhost:8080/OurAnimeList/anime`
+`https://ouranimelist.herokuapp.com/OurAnimeList/anime`
 - `/search-id`  - Procurar anime por ID
 - `/search-all` - Mostrar todos os animes
 - #### Somente ADMIN e UPLOADER
@@ -35,7 +35,7 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 - `/update-id`  - Atualizar anime por ID
 
 ### User : 
-`http://localhost:8080/OurAnimeList/user`
+`https://ouranimelist.herokuapp.com/OurAnimeList/user`
 - `/search-all` - Mostrar todos usuários
 - `/search-id` - Procurar usuário por ID
 - `/mylist-add-id` - Adicionar anime na lista do usuário
@@ -46,7 +46,7 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 - `/update-authorization/{id}` - Modificar a autorização de um usuário por ID
 
 ### Review :
-`http://localhost:8080/OurAnimeList/anime`
+`https://ouranimelist.herokuapp.com/OurAnimeList/anime`
 - `/add-review` - Comentar review
 - `/edit-review` - Editar review
 - `/delete-review` - Deletar review
@@ -94,3 +94,6 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 - buscas e delets por ID
 - reviews
 - atualizar autorização
+
+## Acesso a API
+- https://ouranimelist.herokuapp.com/OurAnimeList/
